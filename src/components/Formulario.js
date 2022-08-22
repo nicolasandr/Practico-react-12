@@ -37,7 +37,6 @@ const Formulario = () => {
         fitrarPais();
     };
     
-
     useEffect(() => {
         consultarAPI();
     }, []);
